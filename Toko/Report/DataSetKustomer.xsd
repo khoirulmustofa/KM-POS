@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetKustomer" targetNamespace="http://tempuri.org/DataSetKustomer.xsd" xmlns:mstns="http://tempuri.org/DataSetKustomer.xsd" xmlns="http://tempuri.org/DataSetKustomer.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetKustomer" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetKustomer" msprop:Generator_UserDSName="DataSetKustomer">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblRptKartuKustomer" msprop:Generator_TableClassName="tblRptKartuKustomerDataTable" msprop:Generator_TableVarName="tabletblRptKartuKustomer" msprop:Generator_RowChangedName="tblRptKartuKustomerRowChanged" msprop:Generator_TablePropName="tblRptKartuKustomer" msprop:Generator_RowDeletingName="tblRptKartuKustomerRowDeleting" msprop:Generator_RowChangingName="tblRptKartuKustomerRowChanging" msprop:Generator_RowEvHandlerName="tblRptKartuKustomerRowChangeEventHandler" msprop:Generator_RowDeletedName="tblRptKartuKustomerRowDeleted" msprop:Generator_RowClassName="tblRptKartuKustomerRow" msprop:Generator_UserTableName="tblRptKartuKustomer" msprop:Generator_RowEvArgName="tblRptKartuKustomerRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NoKustomer" msprop:Generator_ColumnVarNameInTable="columnNoKustomer" msprop:Generator_ColumnPropNameInRow="NoKustomer" msprop:Generator_ColumnPropNameInTable="NoKustomerColumn" msprop:Generator_UserColumnName="NoKustomer" type="xs:string" minOccurs="0" />
+              <xs:element name="Nama" msprop:Generator_ColumnVarNameInTable="columnNama" msprop:Generator_ColumnPropNameInRow="Nama" msprop:Generator_ColumnPropNameInTable="NamaColumn" msprop:Generator_UserColumnName="Nama" type="xs:string" minOccurs="0" />
+              <xs:element name="Alamat" msprop:Generator_ColumnVarNameInTable="columnAlamat" msprop:Generator_ColumnPropNameInRow="Alamat" msprop:Generator_ColumnPropNameInTable="AlamatColumn" msprop:Generator_UserColumnName="Alamat" type="xs:string" minOccurs="0" />
+              <xs:element name="Email" msprop:Generator_ColumnVarNameInTable="columnEmail" msprop:Generator_ColumnPropNameInRow="Email" msprop:Generator_ColumnPropNameInTable="EmailColumn" msprop:Generator_UserColumnName="Email" type="xs:string" minOccurs="0" />
+              <xs:element name="Hanphone" msprop:Generator_ColumnVarNameInTable="columnHanphone" msprop:Generator_ColumnPropNameInRow="Hanphone" msprop:Generator_ColumnPropNameInTable="HanphoneColumn" msprop:Generator_UserColumnName="Hanphone" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

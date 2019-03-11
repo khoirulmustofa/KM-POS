@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{80727D4A-4F20-4595-8146-1BE7F7FEC80F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Toko</RootNamespace>
+    <AssemblyName>KM-POS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>shopping_cart.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>E:\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cetak.cs" />
+    <Compile Include="FrmCetakKartuKustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCetakKartuKustomer.Designer.cs">
+      <DependentUpon>FrmCetakKartuKustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLapPenjualan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLapPenjualan.Designer.cs">
+      <DependentUpon>FrmLapPenjualan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCetakLabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCetakLabel.Designer.cs">
+      <DependentUpon>FrmCetakLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPOS.Designer.cs">
+      <DependentUpon>FrmPOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InitFile.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RawPrinterHelper.cs" />
+    <Compile Include="Report\DataSetBarang.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetBarang.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSetKustomer.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetKustomer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSetLaporanPenjualan.cs">
+      <DependentUpon>DataSetLaporanPenjualan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DataSetLaporanPenjualan.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetLaporanPenjualan.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="VarGlobal.cs" />
+    <EmbeddedResource Include="FrmCetakKartuKustomer.resx">
+      <DependentUpon>FrmCetakKartuKustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLapPenjualan.resx">
+      <DependentUpon>FrmLapPenjualan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCetakLabel.resx">
+      <DependentUpon>FrmCetakLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPOS.resx">
+      <DependentUpon>FrmPOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report\ReportKartuKustomer.rdlc" />
+    <EmbeddedResource Include="Report\ReportLabelBarang.rdlc" />
+    <EmbeddedResource Include="Report\ReportLaporanPenjualan.rdlc" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Report\DataSetBarang.xsc">
+      <DependentUpon>DataSetBarang.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSetBarang.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetBarang.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Report\DataSetBarang.xss">
+      <DependentUpon>DataSetBarang.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSetKustomer.xsc">
+      <DependentUpon>DataSetKustomer.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSetKustomer.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetKustomer.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Report\DataSetKustomer.xss">
+      <DependentUpon>DataSetKustomer.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSetLaporanPenjualan.xsc">
+      <DependentUpon>DataSetLaporanPenjualan.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DataSetLaporanPenjualan.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetLaporanPenjualan.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Report\DataSetLaporanPenjualan.xss">
+      <DependentUpon>DataSetLaporanPenjualan.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\accept.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repeat.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator_accept.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping_cart_up.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Toko.Data\Toko.Data.csproj">
+      <Project>{b1fea6ab-c3ee-437a-996b-0fe76d9574f8}</Project>
+      <Name>Toko.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Toko.Entity\Toko.Entity.csproj">
+      <Project>{65ea6f7b-ee99-4c2e-82c0-9a335cabeb9d}</Project>
+      <Name>Toko.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LaST %28Cobalt%29 Chat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer.ico" />
+    <None Include="Resources\previous.ico" />
+    <None Include="Resources\user_up.ico" />
+    <Content Include="shopping_cart.ico" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

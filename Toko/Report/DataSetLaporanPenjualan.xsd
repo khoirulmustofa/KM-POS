@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetLaporanPenjualan" targetNamespace="http://tempuri.org/DataSetLaporanPenjualan.xsd" xmlns:mstns="http://tempuri.org/DataSetLaporanPenjualan.xsd" xmlns="http://tempuri.org/DataSetLaporanPenjualan.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetLaporanPenjualan" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetLaporanPenjualan" msprop:Generator_UserDSName="DataSetLaporanPenjualan">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblLaporanPenjualan" msprop:Generator_TableClassName="tblLaporanPenjualanDataTable" msprop:Generator_TableVarName="tabletblLaporanPenjualan" msprop:Generator_RowChangedName="tblLaporanPenjualanRowChanged" msprop:Generator_TablePropName="tblLaporanPenjualan" msprop:Generator_RowDeletingName="tblLaporanPenjualanRowDeleting" msprop:Generator_RowChangingName="tblLaporanPenjualanRowChanging" msprop:Generator_RowEvHandlerName="tblLaporanPenjualanRowChangeEventHandler" msprop:Generator_RowDeletedName="tblLaporanPenjualanRowDeleted" msprop:Generator_RowClassName="tblLaporanPenjualanRow" msprop:Generator_UserTableName="tblLaporanPenjualan" msprop:Generator_RowEvArgName="tblLaporanPenjualanRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KodeJual" msprop:Generator_ColumnVarNameInTable="columnKodeJual" msprop:Generator_ColumnPropNameInRow="KodeJual" msprop:Generator_ColumnPropNameInTable="KodeJualColumn" msprop:Generator_UserColumnName="KodeJual" type="xs:string" minOccurs="0" />
+              <xs:element name="KodeBarang" msprop:Generator_ColumnVarNameInTable="columnKodeBarang" msprop:Generator_ColumnPropNameInRow="KodeBarang" msprop:Generator_ColumnPropNameInTable="KodeBarangColumn" msprop:Generator_UserColumnName="KodeBarang" type="xs:string" minOccurs="0" />
+              <xs:element name="NamaBarang" msprop:Generator_ColumnVarNameInTable="columnNamaBarang" msprop:Generator_ColumnPropNameInRow="NamaBarang" msprop:Generator_ColumnPropNameInTable="NamaBarangColumn" msprop:Generator_UserColumnName="NamaBarang" type="xs:string" minOccurs="0" />
+              <xs:element name="Jumlah" msprop:Generator_ColumnVarNameInTable="columnJumlah" msprop:Generator_ColumnPropNameInRow="Jumlah" msprop:Generator_ColumnPropNameInTable="JumlahColumn" msprop:Generator_UserColumnName="Jumlah" type="xs:string" minOccurs="0" />
+              <xs:element name="HargaBeli" msprop:Generator_ColumnVarNameInTable="columnHargaBeli" msprop:Generator_ColumnPropNameInRow="HargaBeli" msprop:Generator_ColumnPropNameInTable="HargaBeliColumn" msprop:Generator_UserColumnName="HargaBeli" type="xs:string" minOccurs="0" />
+              <xs:element name="HargaJual" msprop:Generator_ColumnVarNameInTable="columnHargaJual" msprop:Generator_ColumnPropNameInRow="HargaJual" msprop:Generator_ColumnPropNameInTable="HargaJualColumn" msprop:Generator_UserColumnName="HargaJual" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

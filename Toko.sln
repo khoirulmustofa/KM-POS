@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toko", "Toko\Toko.csproj", "{80727D4A-4F20-4595-8146-1BE7F7FEC80F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toko.Entity", "Toko.Entity\Toko.Entity.csproj", "{65EA6F7B-EE99-4C2E-82C0-9A335CABEB9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toko.Data", "Toko.Data\Toko.Data.csproj", "{B1FEA6AB-C3EE-437A-996B-0FE76D9574F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80727D4A-4F20-4595-8146-1BE7F7FEC80F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80727D4A-4F20-4595-8146-1BE7F7FEC80F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80727D4A-4F20-4595-8146-1BE7F7FEC80F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80727D4A-4F20-4595-8146-1BE7F7FEC80F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65EA6F7B-EE99-4C2E-82C0-9A335CABEB9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65EA6F7B-EE99-4C2E-82C0-9A335CABEB9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65EA6F7B-EE99-4C2E-82C0-9A335CABEB9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65EA6F7B-EE99-4C2E-82C0-9A335CABEB9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1FEA6AB-C3EE-437A-996B-0FE76D9574F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1FEA6AB-C3EE-437A-996B-0FE76D9574F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1FEA6AB-C3EE-437A-996B-0FE76D9574F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1FEA6AB-C3EE-437A-996B-0FE76D9574F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
